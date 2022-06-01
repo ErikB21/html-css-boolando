@@ -6,9 +6,15 @@
 
 /* inizio header*/
 
+header{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
 .header-top{
     background-color: rgb(255, 105, 29);
-    height: 70px;
+    height: 60px;
     margin: 0 auto;
     padding: 15px 0;
     display: flex;
@@ -30,7 +36,7 @@
 }
 
 
-ul{
+.top-link ul, .text-main ul, .text-footer ul{
     display: flex;
     list-style: none;
 }
@@ -76,6 +82,7 @@ li a{
 .container{
     width: 80%;
     margin: auto;
+    padding: 50px 0px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -163,7 +170,63 @@ li a{
 
 /*fine main*/
 
+/* inizio footer*/
 
+footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-sidebar{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.text-footer{
+    width: 50%;
+}
+
+
+.text-footer ul, h4{
+    color: white;
+    padding-top: 10px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+.link-footer li{
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+
+.icons-footer{
+    width: 50%;
+    color: white;
+    text-align: right;
+}
+
+.icons-footer i{
+    padding-top: 10px;
+}
+
+/*fine footer*/
+
+/* inizio hover*/
+
+.photo:hover .human-hover{
+    display: block;
+}
+
+.photo:hover .human{
+    display: none;
+}
 
 
 

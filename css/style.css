@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* inizio header*/
+
+.header-top{
+    background-color: rgb(255, 105, 29);
+    height: 70px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.top-orange{
+    line-height: 35px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.top-link{
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+
+li a{
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.top-logo{
+    width: 20%;
+    align-items: center;
+}
+
+
+.top-logo img{
+    width: 80%;
+}
+
+
+.top-icons{
+    text-align: right;
+}
+
+
+.top-icons, .top-link{
+    width: 30%;
+    display: inline-block;
+}
+
+/* fine header*/
+
+/* inizio main*/
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.container .main-img{
+    width: calc(90% / 3 );
+    margin: 40px 15px 0px 15px;
+}
+
+.photo{
+    position: relative;
+}
+
+.photo img{
+    width: 100%;
+}
+
+
+.discount{
+    background-color: red;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+.discount-green{
+    background-color: green;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+}
+
+.discount-green2{
+    background-color: green;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+
+
+.photo .human-hover{
+    display: none;
+}
+
+.text-main{
+    width: 100%;
+}
+
+.text-main ul{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+

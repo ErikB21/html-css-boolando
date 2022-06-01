@@ -58,6 +58,11 @@ li a{
     text-align: right;
 }
 
+.top-icons i{
+    color: white;
+    padding-left: 5px;
+}
+
 
 .top-icons, .top-link{
     width: 30%;
@@ -90,6 +95,20 @@ li a{
     width: 100%;
 }
 
+.photo .human-hover{
+    display: none;
+}
+
+.hearts{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: white;
+}
 
 .discount{
     background-color: red;
@@ -117,10 +136,6 @@ li a{
 }
 
 
-.photo .human-hover{
-    display: none;
-}
-
 .text-main{
     width: 100%;
 }
@@ -129,6 +144,25 @@ li a{
     display: flex;
     flex-direction: column;
 }
+
+.mark-cloth, .cost{
+    color: #777;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cost-red{
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cost{
+    text-decoration: line-through;
+}
+
+/*fine main*/
+
 
 
 
